@@ -247,27 +247,12 @@ background-image: url('https://www.transparenttextures.com/patterns/blizzard.png
       </div>
     </main>
   </body>
-
-  <!--JavaScript at end of body for optimized loading-->
-  <!-- <script>
-    // Initialize and add the map
-    function initMap() {
-      // The location of Uluru
-      var uluru = { lat: 43.64426, lng: -79.40226 };
-      // The map, centered at Uluru
-      var map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 15,
-        center: uluru
-      });
-      // The marker, positioned at Uluru
-      var marker = new google.maps.Marker({ position: uluru, map: map });
-    }
-  </script> -->
+  <script type="text/javascript" src="/scripts/restaurant1.js"></script>
   <script
     async
     defer
-    src=""
-  ></script>
-  <script type="text/javascript" src="/scripts/restaurant1.js"></script>
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0GNkVSa88rAmKBBfFIZ6oCOChhedxEKw&callback=initMap"
+    type="text/javascript"
+    ></script>
   <script src="/scripts/googlePay.js"></script>
 </html>

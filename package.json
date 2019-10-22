@@ -27,8 +27,8 @@
     "twilio": "^3.35.0"
   },
   "engines": {
-    "node": "10.16.3",
-    "npm": "6.9.0"
+    "node": "8.9.4",
+    "npm": "6.11.2"
   },
   "heroku-postbuild": "npm install --production"
 }
